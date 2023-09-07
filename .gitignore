@@ -1,0 +1,8 @@
+# workspaces
+bamboo.code-workspace
+
+# config files
+composer.lock
+
+# dependencies folders
+/vendor

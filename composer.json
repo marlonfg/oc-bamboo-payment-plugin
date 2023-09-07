@@ -1,0 +1,27 @@
+{
+    "name": "sitios/bamboo-payment-plugin",
+    "type": "october-plugin",
+    "description": "Payment gateways for Shopaholic OctoberCMS",
+    "keywords": [
+        "bamboo",
+        "bp",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "PHPeste"
+    ],
+    "require": {
+        "composer/installers": "~1.0",
+        "league/omnipay": "^3"
+    },
+    "autoload": {
+        "psr-4": { "Omnipay\\BambooPayment\\" : "gateway/bamboopayment" }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}

@@ -1,0 +1,8 @@
+1.0.0:
+    - 'Initialize plugin.'
+1.0.1:
+    - 'validating returnUrl for payment gateway'
+    - 'validating gateway init_point'
+    - 'some fixes in purchase data'
+1.0.12:
+    - 'Adding webhooks'

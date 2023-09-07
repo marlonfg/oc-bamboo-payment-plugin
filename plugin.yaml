@@ -1,0 +1,5 @@
+plugin:
+    name: BambooPayment
+    description: 'lovata.omnipayshopaholic::lang.plugin.description'
+    author: Sitios
+    icon: oc-icon-credit-card
